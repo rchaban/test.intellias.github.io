@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2{
+  text-align: center;
+  color: #277582;
+  padding: 20px;
+}
+
+.wrapper, .login, .search, .input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login, .search{
+  color :#a7ea82;
+  width: 382px;
+  overflow: hidden;
+  padding: 80px;
+  background: #23463f;
+  border-radius: 15px ;
+
+}
+
+.text-input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+.submit-btn {
+  float: right;
+  pointer-events: none;
+  margin-top: 10px;
+  background-color: grey;
+  color: white;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+}
+
+.submit-btn.active {
+  pointer-events: all;
+  float: right;
+  background-color: #29b966;
+  color: white;
+  margin-top: 10px;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+}
+
+.sort-wrap {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.country-wrap {
+  margin-left: 10px;
+}
+
+.notification {
+  position: fixed;
+  top: 5px;
+  height: 8%;
+  width: 20%;
+  margin-top: 5%;
+  margin-left: 76%;
+  transform-origin: right;
+  -webkit-animation: notify 3s ease infinite;
+  animation: notify 3s ease infinite;
+}
+
+.content {
+  height: 82%;
+}
+
+@-webkit-keyframes notify {
+  0% {transform: scaleX(0);}
+  10% {transform: scaleX(1);}
+  13% {transform: scale(1.1);}
+  16% {transform: scale(1);}
+  55% {transform: scaleX(1); border-radius: 0%;}
+  65% {transform: scaleX(0.25); border-radius: 50%;}
+  95% {transform: scaleX(0.25); border-radius: 50%;}
+  100% {transform: scaleX(0);}
+}
+
+@keyframes notify {
+  0% {transform: scaleX(0);}
+  10% {transform: scaleX(1);}
+  13% {transform: scale(1.1);}
+  16% {transform: scale(1);}
+  55% {transform: scaleX(1); border-radius: 0%;}
+  65% {transform: scaleX(0.25); border-radius: 50%;}
+  95% {transform: scaleX(0.25); border-radius: 50%;}
+  100% {transform: scaleX(0);}
+}
+
+.text {
+  position: absolute;
+  height: 6px;
+  font-size: 16px;
+  color: black;
+  margin-top: 12.25px;
+  margin-left: 40px;
+  -webkit-animation: exit 3s ease-in-out infinite;
+  animation: exit 3s ease-in-out infinite;
+}
+
+.content-success {
+  background-color: #29b966;
+  opacity: 80%;
+}
+
+.content-error {
+  background-color: bisque;
+}
+
+@-webkit-keyframes exit {
+  0% {opacity: 1;}
+  55% {opacity: 1;}
+  65% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+@keyframes exit {
+  0% {opacity: 1;}
+  55% {opacity: 1;}
+  65% {opacity: 0;}
+  100% {opacity: 0;}
+}
