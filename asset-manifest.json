@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/test_intellias_github_io/static/css/main.09c640c0.chunk.css",
+    "main.js": "/test_intellias_github_io/static/js/main.3b03f0bf.chunk.js",
+    "main.js.map": "/test_intellias_github_io/static/js/main.3b03f0bf.chunk.js.map",
+    "runtime-main.js": "/test_intellias_github_io/static/js/runtime-main.9c3c18fd.js",
+    "runtime-main.js.map": "/test_intellias_github_io/static/js/runtime-main.9c3c18fd.js.map",
+    "static/js/2.0ecbfaf7.chunk.js": "/test_intellias_github_io/static/js/2.0ecbfaf7.chunk.js",
+    "static/js/2.0ecbfaf7.chunk.js.map": "/test_intellias_github_io/static/js/2.0ecbfaf7.chunk.js.map",
+    "index.html": "/test_intellias_github_io/index.html",
+    "static/css/main.09c640c0.chunk.css.map": "/test_intellias_github_io/static/css/main.09c640c0.chunk.css.map",
+    "static/js/2.0ecbfaf7.chunk.js.LICENSE.txt": "/test_intellias_github_io/static/js/2.0ecbfaf7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c3c18fd.js",
+    "static/js/2.0ecbfaf7.chunk.js",
+    "static/css/main.09c640c0.chunk.css",
+    "static/js/main.3b03f0bf.chunk.js"
+  ]
+}
